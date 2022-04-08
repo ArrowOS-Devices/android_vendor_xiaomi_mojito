@@ -200,7 +200,7 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     libasphere \
     libshoebox \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_vendor \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
     com.qualcomm.qti.imscmservice@2.2 \
@@ -377,7 +377,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.lce@1.0 \
     vendor.qti.hardware.data.qmi@1.0 \
     vendor.qti.hardware.dsp@1.0 \
-    vendor.qti.hardware.fm@1.0 \
+    vendor.qti.hardware.fm@1.0_vendor \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
@@ -413,14 +413,14 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.tui_comm@1.0 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
+    vendor.qti.ims.factory@1.0_vendor \
+    vendor.qti.ims.factory@1.1_vendor \
+    vendor.qti.ims.rcsconfig@1.0_vendor \
+    vendor.qti.ims.rcsconfig@1.1_vendor \
+    vendor.qti.ims.rcsconfig@2.0_vendor \
+    vendor.qti.ims.rcsconfig@2.1_vendor \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0_vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.xiaomi.hardware.mlipay@1.0 \
@@ -428,7 +428,7 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.mtdservice@1.0 \
     libmmrtpdecoder \
     libmmrtpencoder \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0_system_ext \
     fm_helium \
     lib-imsvideocodec \
     lib-imsvt \
@@ -446,15 +446,15 @@ PRODUCT_PACKAGES += \
     libimsmedia_jni \
     libmmparser_lite \
     vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.fm@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.hardware.fm@1.0_system_ext \
+    vendor.qti.ims.factory@1.0_system_ext \
+    vendor.qti.ims.factory@1.1_system_ext \
+    vendor.qti.ims.factory@2.0_system_ext \
+    vendor.qti.ims.rcsconfig@1.0_system_ext \
+    vendor.qti.ims.rcsconfig@1.1_system_ext \
+    vendor.qti.ims.rcsconfig@2.0_system_ext \
+    vendor.qti.ims.rcsconfig@2.1_system_ext \
+    vendor.qti.imsrtpservice@3.0_system_ext \
     CneApp \
     IWlanService \
     SoterService \
