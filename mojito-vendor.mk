@@ -236,7 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mojito/proprietary/vendor/etc/sensors/config/sns_tilt_sw_enabled.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_sw_enabled.json \
     vendor/xiaomi/mojito/proprietary/vendor/etc/sensors/config/sns_tilt_to_wake.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt_to_wake.json \
     vendor/xiaomi/mojito/proprietary/vendor/etc/sensors/config/sns_wrist_pedo.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_wrist_pedo.json \
-    vendor/xiaomi/mojito/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/xiaomi/mojito/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/xiaomi/mojito/proprietary/vendor/etc/thermal-4k.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-4k.conf \
     vendor/xiaomi/mojito/proprietary/vendor/etc/thermal-arvr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-arvr.conf \
@@ -351,8 +350,17 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/16_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/16_version_update_ecc_table.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/17_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/17_version_update_ecc_table.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/18_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/18_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/19_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/19_version_update_ecc_table.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/1_version_intro.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/1_version_intro.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/2_version_add_wps_config.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/31_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/31_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/32_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/32_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/33_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/33_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/34_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/34_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/35_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/35_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/36_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/36_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/37_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/37_version_update_ecc_table.sql \
+    vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/38_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/38_version_update_ecc_table.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/3_version_update_wps_config.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/4_version_update_ecc_table.sql \
     vendor/xiaomi/mojito/proprietary/vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/5_version_update_ecc_table.sql \
