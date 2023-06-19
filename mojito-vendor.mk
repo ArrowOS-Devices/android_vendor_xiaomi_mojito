@@ -938,7 +938,6 @@ PRODUCT_PACKAGES += \
     CneApp \
     IWlanService \
     TimeService \
-    PowerOffAlarm \
     ImsRcsService \
     QtiTelephonyService \
     uceShimService \
